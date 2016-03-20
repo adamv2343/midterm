@@ -14,8 +14,7 @@ public class Staff_Test {
 
 	@BeforeClass
 	public static void setup() {
-		ArrayList records = new ArrayList();
-		records.add
+		
 	}
 	
 	@Test
@@ -50,7 +49,7 @@ public class Staff_Test {
 			String lastName = "Smith";
 			String mName = "John";
 			String email = "email@email.com";
-			Date DOB = "Febuary, 16, 1985";
+			java.util.Date DOB = "Febuary, 16, 1985";
 			String address = "address";
 			Person a = new Person(firstName, mName, lastName,
 					DOB, address, phone_number, email);
